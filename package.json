@@ -3,8 +3,8 @@
   "name": "warsawjs-workshop-3-online-shop",
   "version": "0.0.0",
   "scripts": {
-    "start": "json-server data/products.json --static ./  --port 8080",
-    "live": "live-server",
+    "start": "live-server",
+    "api": "json-server data/products.json --static ./  --port 8080",
     "build:mocks": "node data/products-build.js"
   },
   "devDependencies": {

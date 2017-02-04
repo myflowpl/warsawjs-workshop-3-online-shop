@@ -1,9 +1,7 @@
 (function (window) {
     'use strict';
 
-    const HOST = window.location.host;
-    // const HOST = 'piecioshka.pl';
-    const URL = `http://${HOST}:2095/products`;
+    const URL = `/products`;
 
     function ProductsService($http) {
         return {

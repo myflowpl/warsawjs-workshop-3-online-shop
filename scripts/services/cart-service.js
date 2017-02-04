@@ -18,7 +18,7 @@
         }
 
         getCartSize() {
-            return this.cart.length;
+            return (this.cart) ? this.cart.length : 0;
         }
 
         appendCart(product, quantity) {
